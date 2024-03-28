@@ -33,7 +33,4 @@ word1[i] and word2[i] consist of lowercase letters.
 '''
 class Solution:
     def arrayStringsAreEqual(self, word1: List[str], word2: List[str]) -> bool:
-        if ''.join(word1) == ''.join(word2):
-            return True
-        else:
-            return False
+        return ''.join(word1) == ''.join(word2)
